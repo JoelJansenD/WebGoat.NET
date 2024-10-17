@@ -27,6 +27,7 @@ jobs:
       with:
         project: WebGoat.NET
         path: .
+        format: HTML
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
